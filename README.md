@@ -1,5 +1,13 @@
-Summer 2020 Data Structures 313
+You are being asked to create a (Comparable) data class Student that will be used to maintain information for registration.
 
-These are the codes for my projects assigned to me in CSCI 313 Data Structures
+For this project, your class will contain the student’s firstName, lastName, IDNo.
 
-Each project is separated into its own branch
+Your class should include a constructor that will accept the student’s name and a 3-digit ID.
+
+You should include the necessary accessors and mutators, equals, compareTo, toString.
+
+equals will check the IDNo
+
+compareTo will be used to alphabetize students by their names (last, then first if needed)
+
+toString will return a “formatted” string for the student name and ID. (the format is up to you)
